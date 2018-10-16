@@ -4,7 +4,7 @@ Welcome to Fulfilled's Ruby on Rails technical test.
 
 ## STEPS
 
-1. Fork this project
+1. Fork this project to your account.
 2. Create a local clone.
 3. For each question answered, commit your answers in a single commit and identify the answered question in the commit message. For example, ``git commit -m 'Answer #1.1'``
 4. When you are ready to have your answers reviewed, make a Pull Request and tag [@yusryh](https://github.com/yusryh) (Yusry Harfuddin).
@@ -95,7 +95,7 @@ There are **10** questions altogether: 1.1 (i) - 1.2 (ii), 2.1 (i), 3.1 (i) - 3.
        ```
 4. Meta-Programming / Data Structures
 
-   1. Here at Fulfilled, we are big of the DRY principal and meta programming to build reusable modules.
+   1. Here at Fulfilled, we are big of the DRY principle and meta programming to build reusable modules.
 
       We would like to you build a module and a model to do the following:
 
