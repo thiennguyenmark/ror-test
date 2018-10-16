@@ -11,9 +11,9 @@ Welcome to Fulfilled's Ruby on Rails technical test.
 
 ## QUESTIONS
 
-There are **9** questions altogether: 1.1 (i) - 1.2 (ii), 2.1 (i), 3.1 (i) - 3.5 (v), and 4.1 (i).
+There are **10** questions altogether: 1.1 (i) - 1.2 (ii), 2.1 (i), 3.1 (i) - 3.5 (v), 4.1(i), and 5.1 (i).
 
-**If you are applying to be a mid-senior level engineer, please ensure you complete Question 3.5 (v).**
+**If you are applying to be a mid-senior level engineer, please ensure you complete Question 3.5 (v) and 4.1 (i).**
 
 1. ActiveViews
 
@@ -93,8 +93,45 @@ There are **9** questions altogether: 1.1 (i) - 1.2 (ii), 2.1 (i), 3.1 (i) - 3.5
             [:random, 50, Time.now]
        ])
        ```
+4. Meta-Programming / Data Structures
 
-4. ReactJS
+   1. Here at Fulfilled, we are big of the DRY principal and meta programming to build reusable modules.
+
+      We would like to you build a module and a model to do the following:
+
+      ```
+      class MyMetadataClass
+        include MetadataAccessor
+
+        attr_accessor :temp_data
+        metadata_accessor :temp_data, as: :metadata
+      end
+
+      >> k = MyMetadataClass.new
+
+      >> k.temp_data
+      nil
+
+      >> k.metadata_set('user.nickname', 'sally')
+
+      >> k.temp_data
+      {
+        user: {
+          nickname: 'sally'
+        }
+      }
+
+      >> k.metadata_get('user.name')
+      nil
+      ```
+
+      The method `metadata_accessor` is used to define the method name used to store/retrieve the hash containing metadata.
+
+      There is an optional `as` parameter to allow an alternative name to be used for the `_get` and `_set` methods. In the above example, if `as` is not specified, the methods will be called `temp_data_set` and `temp_data_get`.
+
+      When setting values, the hash and internal hashes should automatically be created.
+
+5. ReactJS
 
    In the root of this RoR project, create a new folder called `reactjs`. This will be your ReactJS project root.
 
