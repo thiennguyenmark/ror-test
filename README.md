@@ -7,7 +7,7 @@ Welcome to Fulfilled's Ruby on Rails technical test.
 1. Fork this project to your account.
 2. Create a local clone.
 3. For each question answered, commit your answers in a single commit and identify the answered question in the commit message. For example, ``git commit -m 'Answer #1.1'``
-4. When you are ready to have your answers reviewed, make a Pull Request and tag [@yusryh](https://github.com/yusryh) (Yusry Harfuddin).
+4. When you are ready to have your answers reviewed, make a Pull Request.
 
 ## QUESTIONS
 
