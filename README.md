@@ -1,6 +1,6 @@
 # README
 
-Welcome to Fulfilled's Ruby on Rails technical test.
+Welcome to ReferReach's Ruby on Rails technical test.
 
 ## STEPS
 
@@ -35,9 +35,9 @@ There are **10** questions altogether: 1.1 (i) - 1.2 (ii), 2.1 (i), 3.1 (i) - 3.
 
        Metadata for the `Image` would be `Title` and `Description`
 
-3. Fulfilled Analytics (High Performance)
+3. Analytics (High Performance)
 
-   In this section, we will be building a high performance  analytics/event data store.
+   In this section, we will be building a high performance analytics/event data store.
 
     1. Create a model (no scaffold or controllers required) suitable for processing analytics data. You can choose to use a different database for this.
 
