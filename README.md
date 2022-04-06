@@ -4,10 +4,9 @@ Welcome to ReferReach's Ruby on Rails technical test.
 
 ## STEPS
 
-1. Fork this project to your account.
-2. Create a local clone.
-3. For each question answered, commit your answers in a single commit and identify the answered question in the commit message. For example, ``git commit -m 'Answer #1.1'``
-4. When you are ready to have your answers reviewed, make a Pull Request.
+1. Create a local clone.
+2. For each question answered, commit your answers in a single commit and identify the answered question in the commit message. For example, ``git commit -m 'Answer #1.1'``
+3. When you are ready to have your answers reviewed, let your contact know. Your contact is typically your recruiter or interviewer.
 
 ## QUESTIONS
 
