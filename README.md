@@ -94,7 +94,7 @@ There are **10** questions altogether: 1.1 (i) - 1.2 (ii), 2.1 (i), 3.1 (i) - 3.
        ```
 4. Meta-Programming / Data Structures
 
-   1. Here at Fulfilled, we are big of the DRY principle and meta programming to build reusable modules.
+   1. Here at ReferReach, we are big of the DRY principle and meta programming to build reusable modules.
 
       We would like to you build a module and a model to do the following:
 
