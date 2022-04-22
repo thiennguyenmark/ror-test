@@ -1,4 +1,6 @@
 class Analytic < ApplicationRecord
+  extend EventLogging
+
   before_destroy :disable_destroy
 
   private
