@@ -22,7 +22,7 @@ module EventLogging
     values = []
 
     value_list.each do |record|
-      raise ArgumentError "too many values" if record.size > 3
+      raise ArgumentError "too many values" if record.size > 3 || record.size <=1
 
       item = if record.size === 3
                 record
